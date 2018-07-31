@@ -1,6 +1,9 @@
 // write your code below!
 var name = "Joe"
-var height = 74
+var height = "74"
 var message = `${name} is ${height} inches tall`
 
 module.exports = {name, height, message}
+
+var index = require("../index.js")
+console.log(message)
